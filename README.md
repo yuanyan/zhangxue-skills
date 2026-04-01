@@ -13,19 +13,19 @@
 ## 安装
 
 ```bash
+# 安装
+npx skills add yuanyan/zhangxue-skills
+
 # 查看所有可用 Skills
 npx skills add yuanyan/zhangxue-skills --list
-
-# 安装全部
-npx skills add yuanyan/zhangxue-skills --all
 
 # 按需安装
 npx skills add yuanyan/zhangxue-skills --skill dakar-resilience-runner
 npx skills add yuanyan/zhangxue-skills --skill extreme-lightweight-refactor
 npx skills add yuanyan/zhangxue-skills --skill no-bs-product-challenger
 
-# 安装到指定 Agent
-npx skills add yuanyan/zhangxue-skills --all -a claude-code -a copilot
+# 安装所有可用 Skills到指定 Agent
+npx skills add yuanyan/zhangxue-skills --skill '*' -a claude-code -a copilot
 ```
 
 ## 价值观
